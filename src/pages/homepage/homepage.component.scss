@@ -1,0 +1,58 @@
+.snowbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.maincontent{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 82px;
+    font-family: 'PressStart2P';
+    color: white;
+    filter: drop-shadow(10px 10px gray);
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.buttoncontainer{
+    display: flex;
+
+
+}
+
+.button{
+    background-color: black;
+    border-bottom: 4px solid gray;
+    border-right: 4px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    margin-top: 0;
+    color: white;
+    font-family: "Digitalix";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: 5px solid white;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    outline: 4px solid gray;
+
+}

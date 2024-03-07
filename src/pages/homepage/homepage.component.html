@@ -7,13 +7,24 @@
         <h1>TURUHOONE</h1>
     </div>
     <div class="buttoncontainer">
-        <div class="button">
+        <div class="button" (click)="showComponent('fsand')">
             FALLING SAND
         </div>
-        <div class="button">
+        <div class="button" (click)="showComponent('bitr')">
             TBA
         </div>
-        <div class="button">
+        <div class="button" (click)="showComponent('tba')">
+            tba
+        </div>
+    </div>
+    <div class="componentarea">
+        <div *ngIf="selectedComponent === 'fsand'">
+            <app-fallingsand></app-fallingsand>
+        </div>
+        <div *ngIf="selectedComponent === 'bitr'">
+            <app-bitretard></app-bitretard>
+        </div>
+        <div *ngIf="selectedComponent === 'tba'">
             TBA
         </div>
     </div>

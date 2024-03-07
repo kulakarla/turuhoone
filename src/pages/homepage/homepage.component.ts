@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SnowComponent } from '../../app/snow/snow.component';
+import { SnowComponent } from '../../utilcomp/snow/snow.component';
 
 @Component({
   selector: 'app-homepage',
